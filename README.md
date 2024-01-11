@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Comandos
+
+ng serve --open => roda o projeto e ja abre o navegador
+ng new 'nome da pasta' => para criar o projeto em angular
+ng g c 'nomae da pasta/nome do component => cria o component
+ng add @angular/material => biblioteca para utilizar components
