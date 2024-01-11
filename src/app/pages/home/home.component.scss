@@ -6,4 +6,28 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  .section-card-tickets{
+    background-color: green;
+  }
+
+  .section-card-promotion{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+      font-size: 32px;
+      padding-left: 15px;
+    }
+
+    div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    
+      padding: 15px;
+    }
+  }
 }
