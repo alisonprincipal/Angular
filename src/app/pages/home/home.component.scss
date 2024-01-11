@@ -1,7 +1,7 @@
 :host{
   margin: 0 auto;
   width: 100%;
-  min-height: 100%;
+ /*  min-height: 100%; */
   background-color: red;
   display: flex;
   flex-direction: column;
@@ -29,5 +29,9 @@
     
       padding: 15px;
     }
+  }
+
+  .section-card-depositions{
+    background-color: rgb(165, 248, 10);
   }
 }
