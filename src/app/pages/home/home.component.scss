@@ -1,37 +1,32 @@
-:host{
-  margin: 0 auto;
+:host {
   width: 100%;
- /*  min-height: 100%; */
   background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  .section-card-tickets{
+  .section-card-tickets {
     background-color: green;
   }
 
-  .section-card-promotion{
+  .section-card-promotion {
     display: flex;
     flex-direction: column;
 
-    h2{
+    h2 {
       font-size: 32px;
       padding-left: 15px;
     }
 
-    div{
+    div {
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
       gap: 20px;
-      justify-content: space-between;
-    
       padding: 15px;
     }
   }
 
-  .section-card-depositions{
+  .section-card-depositions {
     background-color: rgb(165, 248, 10);
   }
 }

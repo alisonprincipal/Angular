@@ -1,11 +1,13 @@
 .app-header {
-
   .mat-toolbar{
     display: flex;
     justify-content: space-around;
 
     background-color: black;
     color: white;
+
+    position: relative;
+    z-index: 1;
 
     @media(max-width:613px){
      flex-direction: column;

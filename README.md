@@ -30,7 +30,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Comandos
 
+npm install --no-fund @angular/cli => instala o angular sem a necessidade das variaveis local. A instalação é centralizada via nodemodules.
+
+/c/angularCLI/node_modules/.bin/ng new angular => utilizar o path com base no diretório que foi criado para o angular
+
 ng serve --open => roda o projeto e ja abre o navegador
 ng new 'nome da pasta' => para criar o projeto em angular
-ng g c 'nomae da pasta/nome do component => cria o component
+ng g c 'nome da pasta/nome do component => cria o component
 ng add @angular/material => biblioteca para utilizar components
